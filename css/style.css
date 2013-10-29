@@ -1,0 +1,86 @@
+/* INITIAL CONDITION FOR ALL TAGS */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, 
+code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, 
+details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+/* CENTERING THE BODY */
+body {
+    background: none repeat scroll 0 0 #000000;
+    font-family: 'Lucida Grande',Arial,Helvetica,sans-serif;
+    padding-top:10px;
+}
+
+#pagina {
+	margin:0 auto;
+	width:70%;
+	background: white;
+	
+	padding-top:10px;
+	padding-bottom:10px;
+	
+}
+
+header {
+	background:green;
+	height:100px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+nav {
+	background:#6495ED;
+	height:50px;
+	margin-top:10px;
+	margin-bottom:0px;
+	margin-right:10px;
+	margin-left:10px;
+}
+
+nav ul li {
+	display: inline;
+}
+#imagen {
+	background:pink;
+	height:100px;
+	margin-top:10px;
+	margin-bottom:0px;
+	margin-right:10px;
+	margin-left:10px;
+}
+
+aside {
+	background:lightblue;
+	height:300px;
+	width:35%;
+	float:left;
+	margin-top:10px;
+	margin-bottom:0px;
+	margin-right:10px;
+	margin-left:10px;
+}
+article {
+	background:lightgrey;
+	height:500px;
+	width:61%;
+	float:right;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:10px;
+	margin-left:0px;
+}
+footer {
+	clear: both;
+	background:green;
+	height:100px;
+	margin-left:10px;
+	margin-right:10px;
+}
