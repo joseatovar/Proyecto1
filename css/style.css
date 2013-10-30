@@ -59,7 +59,7 @@ nav ul li {
 
 aside {
 	background:lightblue;
-	height:300px;
+	min-height: 800px;
 	width:35%;
 	float:left;
 	margin-top:10px;
@@ -67,6 +67,37 @@ aside {
 	margin-right:10px;
 	margin-left:10px;
 }
+
+aside header {
+	background:lightblue;
+}
+
+aside header h1 {
+	padding: 15px;
+}
+
+aside section {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+h2.invert {
+	color: white;
+	background-color: blue;
+	font-size: 18px;
+}
+
+#SF_logo {
+	padding-left: 20px;
+	height: 23px;
+}
+
+#sociales img {
+	width: 80px;
+	height: 80px;
+}
+
 article {
 	background:lightgrey;
 	height:500px;
