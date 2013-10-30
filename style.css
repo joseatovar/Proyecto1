@@ -1,14 +1,67 @@
 body {
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1120px;
+	background: black;
+	font-family: 'Lucida Grande', Arial, Helvetica, sans-serif;
+}
+
+head {
+	margin: 0px;
+	padding: 0px;
+	background: white;
+}
+
+article, footer {
+	padding: 0;
+	margin: 0px;
+	background: white;
+}
+
+header, nav {
+	background: white;
 }
 
 aside {
 	background-color: #E9B64D;
 	float: left;
 	width: 350px;
-	margin: 10px;
+	margin: 20px;
+	min-height: 1000px;
+}
+
+aside header {
+	background-color: #E9B64D;
+}
+
+aside header h1 {
+	padding: 15px;
+}
+
+aside section {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+h2.invert {
+	color: white;
+	background-color: blue;
+	font-size: 18px;
 }
 
 #logo img {
 	width: 100px;
 	height: 100px;
+}
+
+#SF_logo {
+	padding-left: 20px;
+	height: 23px;
+}
+
+#sociales img {
+	width: 80px;
+	height: 80px;
 }
