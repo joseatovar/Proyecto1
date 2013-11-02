@@ -5,19 +5,18 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>jMetal Web site</title>
-
-		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="css/style.css" />
 	</head>
 
 	<body>
 	<div id="pagina">
-		<header>
-				A Framework for Multi-Objective Optimization
-		</header>
+		<header id="articleHeader">
+				<h1>Welcome to the <strong>jMetal</strong> Web Site</h1>
+			</header>
 		<nav>
 			<ul>
 				<li>
-					<a href="index.html" id="active">Home</a>
+					<a href="index.html" id="active"><span>Home</span></a>
 				</li>
 				<li>
 					<a href="algorithms.html">Algorithms</a>
@@ -28,12 +27,29 @@
 					<a href="resources.html">Resources</a>
 				</li>
 				<li>
-					<a href="#opiniones">Our Techniques</a>
+					<a href="#opiniones">Our Techniques <span>&#9660;</span></a>
+					<ul>
+						<li>
+							<a href="smpso.html">SMPSO</a>
+						</li>
+						<li>
+							<a href="abyss.html">AbYSS</a>
+						</li>
+						<li>
+							<a href="mocell.html">MOCell</a>
+						</li>
+						<li>
+							<a href="mochc.html">MOCHC</a>
+						</li>
+						<li>
+							<a href="nsgaII.html">NSGA-II variants</a>
+						</li>
+					</ul>
 				</li>
 			</ul>
 		</nav>	
 		<div id="imagen">
-			Meter imagenes		
+			<h1 id="logo"><a href="index.html" title="index"><img src="images/jMetalLogo.png" alt="jMetal Logo" /></a></h1>
 		</div>
 		
 		<aside>
@@ -82,7 +98,7 @@
 				<hr>
 				<section>
 					<h2 class=invert>Other implementations</h2>
-					<ul class="ul_aside">
+					<ul id="ul_aside">
 						<li>
 							<a href="http://jmetalcpp.sourceforge.net/">jMetalCpp</a>
 						</li>
@@ -95,7 +111,7 @@
 				<section>
 					<h2 class=invert>License</h2>
 					<p> </p>
-					<a href="http://creativecommons.org/licenses/LGPL/2.1/"><img src="images/LPGL.png" width="100" alt="license" class="float-left" /></a>
+					<a href="http://creativecommons.org/licenses/LGPL/2.1/"><img src="images/LPGL.png" margin-top:"10" width="100" alt="license" class="float-left" /></a>
 				</section>
 				<hr>
 				<section>

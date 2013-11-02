@@ -27,6 +27,8 @@ body {
 	padding-top:10px;
 	padding-bottom:10px;
 	
+
+	
 }
 
 header {
@@ -34,6 +36,10 @@ header {
 	height:100px;
 	margin-left:10px;
 	margin-right:10px;
+	margin-bottom:0px;
+	border-radius: 10px;
+	padding: auto;
+
 }
 
 nav {
@@ -43,37 +49,36 @@ nav {
 	margin-bottom:0px;
 	margin-right:10px;
 	margin-left:10px;
+	padding: 10px;
+	border-radius: 10px;
+	padding-left: 0px;
+}
+nav ul{
+	height:100%;
+	padding-top:6px;
+	float:right;
+	overflow:hidden;
+	
+	text-transform: uppercase;
 }
 
 nav ul li {
 	display: inline;
-}
-
-nav ul{
-	height:100%;
-	width:100%
-	list-style-type:none;
-	margin:0;
-	padding:0;
-	overflow:hidden;
-}
-nav li{
-	
 	float:left;
+	position: relative;
 }
-nav a:link,a:visited{
-	border-style:solid;
-	border-width:1px;
-	display:inline;
-	width:120px;
-	font-size:177.5%;
-	font-weight:bold;
-	color:#FFFFFF;
-	background-color:#98bf21;
-	text-align:center;
-	padding:4px;
-	text-decoration:none;
-	text-transform:uppercase;
+ 
+nav ul li a {
+  background:#0c9ba0;
+  color:#FFF;
+  display:block;
+  border:1px solid;
+  padding:10px 10px;
+  text-decoration: none;
+}
+#active {
+		background-color: black ;
+		color: white ;
 }
 nav a:hover,a:active{
 	background-color:#7A991A;
@@ -95,11 +100,15 @@ section ul li ul li{
 
 #imagen {
 	background:pink;
-	height:100px;
+	height:120px;
 	margin-top:10px;
 	margin-bottom:0px;
 	margin-right:10px;
 	margin-left:10px;
+	border-radius: 10px;
+	padding-top: 20px;
+	padding-left: 20px
+
 }
 
 #imagenHTML{
@@ -116,6 +125,7 @@ aside {
 	margin-bottom:0px;
 	margin-right:10px;
 	margin-left:10px;
+	border-radius: 10px;
 }
 
 aside header {
@@ -132,12 +142,19 @@ aside section {
 	margin-bottom: 10px;
 }
 
+aside section p {
+	margin-bottom: 14px;
+}
 h2.invert {
 	color: white;
 	background-color: blue;
 	font-size: 18px;
+	padding-left: 7px;
 }
 
+#ul_aside {
+	padding-left: 20px ;
+}
 #SF_logo {
 	padding-left: 20px;
 	height: 23px;
@@ -157,6 +174,8 @@ article {
 	margin-bottom:10px;
 	margin-right:10px;
 	margin-left:0px;
+	border-radius: 10px;
+
 }
 footer {
 	clear: both;
@@ -164,8 +183,79 @@ footer {
 	height:100px;
 	margin-left:10px;
 	margin-right:10px;
+	border-radius: 10px;
+
+	
 }
 
 .validator{
 	margin:30px;
 }
+h1#logo {
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0;
+	padding-bottom: 8px;
+	color: #fff;
+}
+
+h1#logo img {
+	border: none;
+	margin: 0;
+	width: 90px;
+}
+#articleHeader h1{
+	font-size: 35px;
+	font-weight: normal;
+	margin-top: 0px;;
+	padding: 30px 0 0 30px;
+}
+
+
+nav ul li ul {
+	display: none ;
+	position: absolute;
+}
+
+nav ul li:hover ul {
+	display: block ;
+	z-index: 1000 ;
+} 
+
+
+nav ul li ul li {
+	float: none ;
+}
+
+
+
+nav ul li ul li a {
+
+}
+
+ul ul {
+	margin-bottom: 0px ;
+}
+
+ul.submenu {
+    display: none;  
+}
+li:hover .submenu {
+    background: yellow;
+    border: #fff solid;
+    border-width: 1px;
+    display: block;
+    position: absolute;
+    left: 75px;
+    top: 5px;
+}
+ul.submenu li {
+    border: none;
+    float:left;
+    width:150px;
+}
+
+.sub-level {
+    background: #FFFFFF;
+}
+ 
