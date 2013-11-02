@@ -118,7 +118,6 @@ section ul li ul li{
 
 aside {
 	background:lightblue;
-	min-height: 800px;
 	width:35%;
 	float:left;
 	margin-top:10px;
@@ -152,11 +151,16 @@ h2.invert {
 	padding-left: 7px;
 }
 
+h2.invert:hover
+{
+	background-color: green;
+}
+
 #ul_aside {
 	padding-left: 20px ;
 }
 #SF_logo {
-	padding-left: 20px;
+	padding-left: 15px;
 	height: 23px;
 }
 
@@ -167,7 +171,6 @@ h2.invert {
 
 article {
 	background:lightgrey;
-	height:750px;
 	width:61%;
 	float:right;
 	margin-top:10px;
@@ -259,3 +262,6 @@ ul.submenu li {
     background: #FFFFFF;
 }
  
+article, aside {
+	height: 850px;
+}
